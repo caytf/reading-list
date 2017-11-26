@@ -1,2 +1,16 @@
-puts "Enter your name: "
+puts "Enter your three initials, all lowercase: "
 username = gets.chomp
+
+# check against user name array. if doesn't already exist, add to name array and generate new index array for reviews
+
+# a = [[user1 review book1, user1 review book2, user1 review book3], [user2 review book1, user2 review book2, user2 review book3]]
+
+states = {"Oregon" => "OR",
+          "Alabama" => "AL",
+          "New Jersey" => "NJ",
+          "Colorado" => "CO"}
+
+capitals = {"OR" => "Salem",
+            "AL" => "Montgomery",
+            "NJ" => "Trenton",
+            "CO" => "Denver"}
