@@ -1,0 +1,11 @@
+class Book
+  attr_reader :title, :author, :synopsis
+  
+  def initialize(title, author, synopsis)
+    @title = title
+    @author = author
+    @synopsis = synopsis
+  end
+end
+
+book = Book.new ("Winnie the Pooh", "AL Milne", "About a bear.")
