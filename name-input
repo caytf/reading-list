@@ -1,0 +1,2 @@
+puts "Enter your name: "
+username = gets.chomp
